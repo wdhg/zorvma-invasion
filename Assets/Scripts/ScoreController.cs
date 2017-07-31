@@ -24,8 +24,11 @@ public class ScoreController : MonoBehaviour {
 		if(score > highScore) {
 			highScore = score;
 			PlayerPrefs.SetInt("High Score", highScore);
-			highScoreText.text = "High Score: " + highScore.ToString();
 		}
-		scoreText.text = "Score: " + score.ToString();
+	}
+
+	private void Update() {
+		highScoreText.text = "High Score: " + highScore.ToString();
+		scoreText.text = "Score: " + score.ToString();		
 	}
 }

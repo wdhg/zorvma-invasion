@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 02c20bc5b1416495a8f6de1bc6ea9aff
+timeCreated: 1501455115
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Movie Poster
+  fontNames:
+  - Movie Poster
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

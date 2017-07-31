@@ -21,7 +21,6 @@ public class TextController : MonoBehaviour {
 		saidPhrase = "";
 		phraseToSay = "";
 		closeTextboxTime = 0f;
-		nextPhraseTime = 0f;
 	}
 
 	private void TurnOffText() {
@@ -62,7 +61,7 @@ public class TextController : MonoBehaviour {
 				} else if(Time.time >= closeTextboxTime) { // If it is time to close the textbox
 					TurnOffText();
 				}
-			} else if(Time.time > nextCharTime) { // If it is time to add another character
+			} else if(phraseToSay != saidPhrase && Time.time > nextCharTime) { // If it is time to add another character
 				UpdatePhrase();
 			}
 		} else {

@@ -825,7 +825,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.072664365, g: 0.10445503, b: 0.1544118, a: 0}
+  m_BackGroundColor: {r: 0.036332186, g: 0.056516737, b: 0.08823532, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1120,8 +1120,8 @@ MonoBehaviour:
   - Lfi low hfm szh wrvw zmw yvxlnv z yozxp slov. Dv lmob dzmg gl hfierev!
   - Dzi rh mlg rm lfi mzgfiv. Gsrh rh qfhg hvou wvuvmxv.
   - Ru dv dzmgvw gl, blf dlfow yv wvzw yb mld. Kovzhv ovg fh orev zolmt hrwv blf!
-  deathPhrase: Uh oh. Good thing I have my time machine! Press any key to go back
-    in time to try again!
+  deathPhrase: Uh oh. Good thing I spent ten trillion dollars on that time machine!
+    Press any key to go back in time to try again!
   minPhraseRate: 10
   maxPhraseRate: 20
   nextPhraseTime: 10
@@ -1460,8 +1460,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startRadius: 3
   alienBlock: {fileID: 1069533859572608, guid: 661ed1e541fe64a36970ed18bb802861, type: 2}
-  startSpawnRate: 0.5
-  maxSpawnRate: 1.5
+  startSpawnRate: 0.7
+  maxSpawnRate: 1.1
   minblockCount: 4
   blockCount: 6
   spawnEnemies: 0
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rg: {fileID: 986919562}
-  difficultyRating: 50
+  difficultyRating: 100
 --- !u!1 &1063845689
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,7 +1740,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 2fbf86168b86145e093df2a66b8adee1, type: 3}
+    m_Font: {fileID: 12800000, guid: 643e63e68cb29467999110c1d322892b, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -2131,7 +2131,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 2fbf86168b86145e093df2a66b8adee1, type: 3}
+    m_Font: {fileID: 12800000, guid: 643e63e68cb29467999110c1d322892b, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -2307,7 +2307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnergyMeter: {fileID: 221967813}
   energy: 50
-  energyProduction: 8
+  energyProduction: 9
   planet: {fileID: 56368589}
   sun: {fileID: 17786055}
 --- !u!1 &1730368678

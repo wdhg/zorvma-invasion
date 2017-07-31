@@ -45,7 +45,6 @@ public class RingGenerator : MonoBehaviour {
 			newBlock.transform.parent = transform;
 			newBlock.GetComponent<BlockController>().angle = angle;
 		}
-		Debug.Log(spawnRate);
 		nextSpawnTime = Time.time + (1 / spawnRate);
 	}
 
